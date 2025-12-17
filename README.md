@@ -32,12 +32,15 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+```
 module ex2(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
 assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
 endmodule
+```
 
+```
 module f2_logic(w, x, y, z, f2_out);
     input w, x, y, z;
     output f2_out;
@@ -50,7 +53,7 @@ not(yn, y);
 
     or(f2_out, w1, w2, w3);
     endmodule
-
+```
 
 Developed by:Samantha Shree SV
 RegisterNumber: 25017585*/
